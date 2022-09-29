@@ -1,0 +1,48 @@
+@font-face {
+    font-family: CursedTimerUlil-Aznm;
+    src: url(font/CursedTimerUlil-Aznm.ttf);
+}
+body {
+    margin: 0;
+    background-color: #19244d;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-container {
+    justify-content: space-around;
+    position: relative;
+    top: 5px;
+}
+
+h3 {
+    color: white;
+}
+
+.score {
+    width: 80px;
+    height: 55px;
+    background-color: black;
+    color: #f94f6d;
+    font-family: CursedTimerUlil-Aznm;
+    font-size: 50px;
+    text-align: center;
+}
+
+.button {
+    width: 40px;
+    height: 35px;
+    color: #7f90af;
+    border-color: #7f90af;
+    border-radius: 5px;
+    font-family: CursedTimerUlil-Aznm;
+    background-color: transparent;
+}
+.restartButton {
+    width: 80px;
+    height: 35px;
+}
+

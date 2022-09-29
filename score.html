@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="score.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="score" id="home-score">0</div>
+        <div class="score" id="guest-score">0</div>
+    </div>
+    <div class="container">
+        <div class="btn-container">
+            <button class="button" id="+1" onclick="H_add(1)">+1</button>
+            <button class="button" id="+2" onclick="H_add(2)">+2</button>
+            <button class="button" id="+3" onclick="H_add(3)">+3</button>
+        </div>
+        <div class="btn-container">
+            <button class="button" id="+1" onclick="G_add(1)">+1</button>
+            <button class="button" id="+2" onclick="G_add(2)">+2</button>
+            <button class="button" id="+3" onclick="G_add(3)">+3</button>
+        </div>
+    </div>
+    <div class="container">
+        <button class="button restartButton" id="restart" onclick="restart()">RESTART</button>
+    </div>
+    <script src="score.js"></script>
+</body>
+</html>
